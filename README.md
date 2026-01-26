@@ -44,6 +44,8 @@ If you use these models or constructions in your work, please cite:
 @article{hisakawa2025polyhedra,
   title={Polyhedra of Constant Gaussian Curvature},
   author={Hisakawa, Soto and Kaji, Shizuo and Kawai, Ryo},
+  journal={arXiv preprint arXiv:2512.19106},
+  url={https://arxiv.org/abs/2512.19106},
   year={2025}
 }
 ```
@@ -54,4 +56,4 @@ Please contact the authors regarding the use and distribution of these materials
 
 ## Acknowledgements
 
-We are grateful to Professor T. Tsuboi and Professor J. Ito for stimulating discussions. The second-named author acknowledges support from KAKENHI, Grant-in-Aid for Scientific Research (B) 25K00921 and (S) 25H00399.
+We are grateful to Professor T. Tsuboi and Professor J. Itoh for stimulating discussions. The second-named author acknowledges support from KAKENHI, Grant-in-Aid for Scientific Research (B) 25K00921 and (S) 25H00399.
