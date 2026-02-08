@@ -4,7 +4,7 @@
 
 This repository provides 3D printable models as companion materials to the paper:
 
-**Polyhedra of Constant Gaussian Curvature**
+[Polyhedra of Constant Gaussian Curvature](https://arxiv.org/abs/2512.19106)
 by Soto Hisakawa, Shizuo Kaji, and Ryo Kawai, 2025
 
 ## Overview
