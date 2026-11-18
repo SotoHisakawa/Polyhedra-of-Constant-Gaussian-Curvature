@@ -6,7 +6,10 @@ Whilst any closed smooth surface embedded in $\R^3$ with constant Gaussian curva
 whether orientable or non-orientable and of arbitrary genus,
 can be realised in $\R^3$ as a (possibly self-intersecting) polyhedral surface in which every vertex has the same angular defect, which is a discrete analogue of Gaussian curvature for which the Gauss--Bonnet theorem holds. Specifically, we prove that every connected closed surface admits a polyhedral immersion with equal angular defects, and every orientable surface admits an embedding.
 
+![Printed models](images/3d_models.jpg)
+
 ![Representative models](images/model_overview.png)
+
 
 ## Files and names
 
