@@ -1,0 +1,143 @@
+{
+  "name": "singular_nonorientable_g4_v12_cubohemioctahedron",
+  "vertices": [
+    [
+      -1.0,
+      -1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      0.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      -1.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "faces": [
+    [
+      1,
+      0,
+      2,
+      3
+    ],
+    [
+      10,
+      8,
+      9,
+      11
+    ],
+    [
+      5,
+      0,
+      4,
+      8
+    ],
+    [
+      6,
+      3,
+      7,
+      11
+    ],
+    [
+      4,
+      1,
+      6,
+      9
+    ],
+    [
+      7,
+      2,
+      5,
+      10
+    ],
+    [
+      6,
+      3,
+      2,
+      5,
+      8,
+      9
+    ],
+    [
+      8,
+      4,
+      1,
+      3,
+      7,
+      10
+    ],
+    [
+      7,
+      2,
+      0,
+      4,
+      9,
+      11
+    ],
+    [
+      6,
+      1,
+      0,
+      5,
+      10,
+      11
+    ]
+  ],
+  "orientable": false,
+  "genus": 4,
+  "expected_vertices": 12,
+  "expected_defect": -1.0471975511965976,
+  "construction": "Cubohemioctahedron",
+  "source": "Appendix B.3, Higher genus and vertex counts",
+  "parameters": {},
+  "representation": "Original paper polygon presentation; zero-based face indices; paper coordinate units"
+}

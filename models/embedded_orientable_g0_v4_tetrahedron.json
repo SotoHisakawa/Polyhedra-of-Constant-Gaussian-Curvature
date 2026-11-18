@@ -1,0 +1,54 @@
+{
+  "name": "embedded_orientable_g0_v4_tetrahedron",
+  "vertices": [
+    [
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      1.0
+    ]
+  ],
+  "faces": [
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      3,
+      1,
+      0
+    ],
+    [
+      2,
+      3,
+      0
+    ],
+    [
+      3,
+      2,
+      1
+    ]
+  ],
+  "orientable": true,
+  "genus": 0,
+  "expected_vertices": 4,
+  "expected_defect": 3.141592653589793,
+  "construction": "Regular tetrahedron",
+  "source": "main.tex: Embedded orientable surfaces",
+  "representation": "Original paper polygon presentation; zero-based face indices; paper coordinate units"
+}

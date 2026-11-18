@@ -1,0 +1,5 @@
+numpy>=1.26
+scipy>=1.11
+# Required for --printable (distance-field isosurface) and --preview, respectively.
+scikit-image>=0.22
+matplotlib>=3.8

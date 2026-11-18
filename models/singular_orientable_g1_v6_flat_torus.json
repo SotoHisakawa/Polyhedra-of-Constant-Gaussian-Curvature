@@ -1,0 +1,93 @@
+{
+  "name": "singular_orientable_g1_v6_flat_torus",
+  "vertices": [
+    [
+      0.0,
+      0.8660254037844386,
+      0.0
+    ],
+    [
+      -0.5,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.8660254037844386,
+      1.0
+    ],
+    [
+      -0.5,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      0.0,
+      1.0
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      1,
+      4,
+      3
+    ],
+    [
+      1,
+      2,
+      5,
+      4
+    ],
+    [
+      2,
+      0,
+      3,
+      5
+    ],
+    [
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      5,
+      3,
+      1
+    ],
+    [
+      5,
+      1,
+      0
+    ],
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      0,
+      2,
+      4
+    ]
+  ],
+  "orientable": true,
+  "genus": 1,
+  "expected_vertices": 6,
+  "expected_defect": 0.0,
+  "construction": "Six-vertex singular flat torus",
+  "source": "Appendix B.2, A flat torus with six vertices",
+  "parameters": {},
+  "representation": "Original paper polygon presentation; zero-based face indices; paper coordinate units"
+}

@@ -1,0 +1,3439 @@
+{
+  "models": [
+    {
+      "name": "embedded_orientable_g0_v4_tetrahedron",
+      "paper_vertices": 4,
+      "polygon_edges": 6,
+      "polygon_faces": 4,
+      "euler_characteristic": 2,
+      "genus": 0,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": 3.141592653589793,
+      "max_defect_error": 4.440892098500626e-16,
+      "max_planarity_error": 0.0,
+      "triangulation_defect_error": 4.440892098500626e-16,
+      "triangulation": {
+        "vertices": 4,
+        "triangles": 4,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 6
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 2.6666666666666665
+      },
+      "stl": {
+        "vertices": 4,
+        "triangles": 4,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 6
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 2.6666666666666665,
+        "max_float32_defect_error": 0.0,
+        "sha256": "38f324764e0045a42a649e3e2181e98a5a601fc128ded0679a124a80dd2c6f00",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 40.0,
+        "vertices": 4,
+        "triangles": 4,
+        "edges": 6,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          170666.66666666666
+        ],
+        "signed_volume_mm3": 170666.66666666666,
+        "source_model": "embedded_orientable_g0_v4_tetrahedron",
+        "source_stl_sha256": "38f324764e0045a42a649e3e2181e98a5a601fc128ded0679a124a80dd2c6f00",
+        "sha256": "d557caf60cb3b70860459174c65442052c80680ca8da2df4ede99293adf64633"
+      }
+    },
+    {
+      "name": "embedded_orientable_g1_v9_flat_torus",
+      "paper_vertices": 9,
+      "polygon_edges": 27,
+      "polygon_faces": 18,
+      "euler_characteristic": 0,
+      "genus": 1,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": 0.0,
+      "max_defect_error": 1.7763568394002505e-15,
+      "max_planarity_error": 1.1102230246251565e-16,
+      "triangulation_defect_error": 2.6645352591003757e-15,
+      "triangulation": {
+        "vertices": 9,
+        "triangles": 18,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 27
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.9112080149114635
+      },
+      "stl": {
+        "vertices": 9,
+        "triangles": 18,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 27
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.9112080005377526,
+        "max_float32_defect_error": 1.83240701723264e-07,
+        "sha256": "bd7f487996c6a00226d6fdbe411af532af4d5b87e7b66f431185fbf7c097b7ad",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 40.69329520483997,
+        "vertices": 9,
+        "triangles": 18,
+        "edges": 27,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          61402.50552606944
+        ],
+        "signed_volume_mm3": 61402.50552606945,
+        "source_model": "embedded_orientable_g1_v9_flat_torus",
+        "source_stl_sha256": "bd7f487996c6a00226d6fdbe411af532af4d5b87e7b66f431185fbf7c097b7ad",
+        "sha256": "1d6ba5d8bca2c451aaf2d420010f6caea8ca8151bcea2c217847ff072bfffed2"
+      }
+    },
+    {
+      "name": "embedded_orientable_g2_v16_windows",
+      "paper_vertices": 16,
+      "polygon_edges": 32,
+      "polygon_faces": 14,
+      "euler_characteristic": -2,
+      "genus": 2,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.7853981633974483,
+      "max_defect_error": 8.881784197001252e-16,
+      "max_planarity_error": 1.1102230246251565e-16,
+      "triangulation_defect_error": 8.881784197001252e-16,
+      "triangulation": {
+        "vertices": 16,
+        "triangles": 36,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 54
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 6.639951028809897
+      },
+      "stl": {
+        "vertices": 16,
+        "triangles": 36,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 54
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 6.639951141505681,
+        "max_float32_defect_error": 5.1149327440214165e-08,
+        "sha256": "b81d206380c6ced2a7adbe5c91c3ddf59aedee6132c17882d6300e628b9f5162",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 39.999999999999986,
+        "vertices": 16,
+        "triangles": 36,
+        "edges": 54,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          424956.8656541244
+        ],
+        "signed_volume_mm3": 424956.86565412447,
+        "source_model": "embedded_orientable_g2_v16_windows",
+        "source_stl_sha256": "b81d206380c6ced2a7adbe5c91c3ddf59aedee6132c17882d6300e628b9f5162",
+        "sha256": "56938bc1fe2d59acac7360553adb5bde6153a0857bd9336ad0a70b60cc6c2b58"
+      }
+    },
+    {
+      "name": "embedded_orientable_g3_v24_windows",
+      "paper_vertices": 24,
+      "polygon_edges": 48,
+      "polygon_faces": 20,
+      "euler_characteristic": -4,
+      "genus": 3,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.0471975511965976,
+      "max_defect_error": 1.1102230246251565e-15,
+      "max_planarity_error": 2.498001805406602e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 24,
+        "triangles": 56,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 84
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 18.11436469582451
+      },
+      "stl": {
+        "vertices": 24,
+        "triangles": 56,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 84
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 18.11436429619789,
+        "max_float32_defect_error": 2.186668153214555e-07,
+        "sha256": "e969db44f6b3562f9051defc868fc4d471b86cc8c6a053e03e2b012e5d4c4a2c",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 20.0,
+        "vertices": 24,
+        "triangles": 56,
+        "edges": 84,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          144914.92522557577
+        ],
+        "signed_volume_mm3": 144914.92522557575,
+        "source_model": "embedded_orientable_g3_v24_windows",
+        "source_stl_sha256": "e969db44f6b3562f9051defc868fc4d471b86cc8c6a053e03e2b012e5d4c4a2c",
+        "sha256": "35acf146584c05d34ac04788bd3b94e0b0ff1a5f159b61286e857cbdd27816e8"
+      }
+    },
+    {
+      "name": "embedded_orientable_g4_v32_windows",
+      "paper_vertices": 32,
+      "polygon_edges": 64,
+      "polygon_faces": 26,
+      "euler_characteristic": -6,
+      "genus": 4,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.1780972450961724,
+      "max_defect_error": 4.440892098500626e-16,
+      "max_planarity_error": 1.1102230246251565e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 32,
+        "triangles": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 114
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 34.629375959776205
+      },
+      "stl": {
+        "vertices": 32,
+        "triangles": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 114
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 34.62937899052545,
+        "max_float32_defect_error": 2.135607912734372e-07,
+        "sha256": "b926cd1225ebe456dba0f6638ad258d1aac341781847e43bd313ae386b9d4027",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 16.568542494923804,
+        "vertices": 32,
+        "triangles": 76,
+        "edges": 114,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          157506.17395205382
+        ],
+        "signed_volume_mm3": 157506.17395205382,
+        "source_model": "embedded_orientable_g4_v32_windows",
+        "source_stl_sha256": "b926cd1225ebe456dba0f6638ad258d1aac341781847e43bd313ae386b9d4027",
+        "sha256": "0ed6008fa9cf273dced2a7c59988edc6045ef57cc87c49856e3a63c02c29501b"
+      }
+    },
+    {
+      "name": "embedded_orientable_g5_v40_windows",
+      "paper_vertices": 40,
+      "polygon_edges": 80,
+      "polygon_faces": 32,
+      "euler_characteristic": -8,
+      "genus": 5,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.2566370614359172,
+      "max_defect_error": 1.7763568394002505e-15,
+      "max_planarity_error": 4.163336342344337e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 40,
+        "triangles": 96,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 144
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 56.214321820860874
+      },
+      "stl": {
+        "vertices": 40,
+        "triangles": 96,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 144
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 56.21432033829095,
+        "max_float32_defect_error": 2.2363767016031488e-07,
+        "sha256": "899bec736b48d1d1aedf75e1afcade6650deed4c4ebc74f3e34fbcc1eb39c12f",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 12.360679774997893,
+        "vertices": 40,
+        "triangles": 96,
+        "edges": 144,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          106163.2053941134
+        ],
+        "signed_volume_mm3": 106163.2053941134,
+        "source_model": "embedded_orientable_g5_v40_windows",
+        "source_stl_sha256": "899bec736b48d1d1aedf75e1afcade6650deed4c4ebc74f3e34fbcc1eb39c12f",
+        "sha256": "228ec2f85654b52b73b8b7565923137e147987b600ed6630281bc7d4c7db06b7"
+      }
+    },
+    {
+      "name": "embedded_orientable_g6_v48_windows",
+      "paper_vertices": 48,
+      "polygon_edges": 96,
+      "polygon_faces": 38,
+      "euler_characteristic": -10,
+      "genus": 6,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.3089969389957472,
+      "max_defect_error": 1.5543122344752192e-15,
+      "max_planarity_error": 3.3306690738754696e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 48,
+        "triangles": 116,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 174
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 82.8796458933853
+      },
+      "stl": {
+        "vertices": 48,
+        "triangles": 116,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 174
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 82.87964985822049,
+        "max_float32_defect_error": 5.045130491154737e-07,
+        "sha256": "8537b67a33ae36969f2982792ddc302c8322db47107a8db44ce60b7bfe8d74a4",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 10.717967697244907,
+        "vertices": 48,
+        "triangles": 116,
+        "edges": 174,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          102043.47238558989
+        ],
+        "signed_volume_mm3": 102043.47238558985,
+        "source_model": "embedded_orientable_g6_v48_windows",
+        "source_stl_sha256": "8537b67a33ae36969f2982792ddc302c8322db47107a8db44ce60b7bfe8d74a4",
+        "sha256": "b610393fbc78fef49c10029341605709010995302cf9d6913ff86690d65c7653"
+      }
+    },
+    {
+      "name": "embedded_orientable_g7_v56_windows",
+      "paper_vertices": 56,
+      "polygon_edges": 112,
+      "polygon_faces": 44,
+      "euler_characteristic": -12,
+      "genus": 7,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.3463968515384828,
+      "max_defect_error": 1.7763568394002505e-15,
+      "max_planarity_error": 8.049116928532385e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 56,
+        "triangles": 136,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 204
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 114.63022605158464
+      },
+      "stl": {
+        "vertices": 56,
+        "triangles": 136,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 204
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 114.63022631355993,
+        "max_float32_defect_error": 5.648806764568803e-07,
+        "sha256": "85f17f3512f817dd6fd50a1283efe439af32c70a1a32a32e28254d2ec075d36b",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 8.900837358252575,
+        "vertices": 56,
+        "triangles": 136,
+        "edges": 204,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          80833.5633734256
+        ],
+        "signed_volume_mm3": 80833.56337342557,
+        "source_model": "embedded_orientable_g7_v56_windows",
+        "source_stl_sha256": "85f17f3512f817dd6fd50a1283efe439af32c70a1a32a32e28254d2ec075d36b",
+        "sha256": "c889adfa2c2410d39b6ec349864641c5a3c02aa8f1b6fe229344a4b6ef0bc8dd"
+      }
+    },
+    {
+      "name": "embedded_orientable_g8_v64_windows",
+      "paper_vertices": 64,
+      "polygon_edges": 128,
+      "polygon_faces": 50,
+      "euler_characteristic": -14,
+      "genus": 8,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.3744467859455345,
+      "max_defect_error": 2.4424906541753444e-15,
+      "max_planarity_error": 4.440892098500626e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 64,
+        "triangles": 156,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 234
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 151.46868646745713
+      },
+      "stl": {
+        "vertices": 64,
+        "triangles": 156,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 234
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 151.4686808348034,
+        "max_float32_defect_error": 4.987516266652392e-07,
+        "sha256": "a6320d7181ceba6f42c698417c0d2af7bd811e1f70b3c2a951c4c4b785d26bed",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 7.95649469518632,
+        "vertices": 64,
+        "triangles": 156,
+        "edges": 234,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          76293.61521199829
+        ],
+        "signed_volume_mm3": 76293.61521199829,
+        "source_model": "embedded_orientable_g8_v64_windows",
+        "source_stl_sha256": "a6320d7181ceba6f42c698417c0d2af7bd811e1f70b3c2a951c4c4b785d26bed",
+        "sha256": "8adc2bab851cc74e5a502253387b9da1c75b4feba0dacc63f4644ead4ff469bd"
+      }
+    },
+    {
+      "name": "embedded_orientable_g5_v30_shared_windows",
+      "paper_vertices": 30,
+      "polygon_edges": 65,
+      "polygon_faces": 27,
+      "euler_characteristic": -8,
+      "genus": 5,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.6755160819145563,
+      "max_defect_error": 1.1102230246251565e-15,
+      "max_planarity_error": 3.885780586188048e-16,
+      "triangulation_defect_error": 8.881784197001252e-16,
+      "triangulation": {
+        "vertices": 30,
+        "triangles": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 114
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 6.273297467994349
+      },
+      "stl": {
+        "vertices": 30,
+        "triangles": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 114
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 6.273297343258993,
+        "max_float32_defect_error": 1.281985735346325e-07,
+        "sha256": "3250bd37a7e81f04b3057fc38109f81fa3b717abb3edd50e4680f08814241a06",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 24.721359549995793,
+        "vertices": 30,
+        "triangles": 76,
+        "edges": 114,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          94779.17186844289
+        ],
+        "signed_volume_mm3": 94779.1718684429,
+        "source_model": "embedded_orientable_g5_v30_shared_windows",
+        "source_stl_sha256": "3250bd37a7e81f04b3057fc38109f81fa3b717abb3edd50e4680f08814241a06",
+        "sha256": "0193fb0f119b405f8d99167f272e2a91e88cb505fafe820ea260aa6b5f3b1692"
+      }
+    },
+    {
+      "name": "embedded_orientable_g6_v36_shared_windows",
+      "paper_vertices": 36,
+      "polygon_edges": 78,
+      "polygon_faces": 32,
+      "euler_characteristic": -10,
+      "genus": 6,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.7453292519943295,
+      "max_defect_error": 3.3306690738754696e-15,
+      "max_planarity_error": 9.43689570931383e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 36,
+        "triangles": 92,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 138
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 11.261834166651141
+      },
+      "stl": {
+        "vertices": 36,
+        "triangles": 92,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 138
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 11.261834120307016,
+        "max_float32_defect_error": 6.696770604719404e-08,
+        "sha256": "7faf381d5b94570330f0a11dad79182289686798eb3e0647b07491964a6481c9",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 20.0,
+        "vertices": 36,
+        "triangles": 92,
+        "edges": 138,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          90094.67877394106
+        ],
+        "signed_volume_mm3": 90094.67877394102,
+        "source_model": "embedded_orientable_g6_v36_shared_windows",
+        "source_stl_sha256": "7faf381d5b94570330f0a11dad79182289686798eb3e0647b07491964a6481c9",
+        "sha256": "bce7b7fa2e4b660b1dc1e37520df58bc60d88b17e65183bb791b3c74109d6aa4"
+      }
+    },
+    {
+      "name": "embedded_orientable_g7_v42_shared_windows",
+      "paper_vertices": 42,
+      "polygon_edges": 91,
+      "polygon_faces": 37,
+      "euler_characteristic": -12,
+      "genus": 7,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.7951958020513104,
+      "max_defect_error": 1.7763568394002505e-15,
+      "max_planarity_error": 7.216449660063518e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 42,
+        "triangles": 108,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 162
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 17.48430873449104
+      },
+      "stl": {
+        "vertices": 42,
+        "triangles": 108,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 162
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 17.484309557616957,
+        "max_float32_defect_error": 2.8637212423632263e-07,
+        "sha256": "2d3be5c9d9f6d04d28e133c45a744911ffe6d0d8fd9d5b6e6676b999dc7dbecd",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 17.801674716505147,
+        "vertices": 42,
+        "triangles": 108,
+        "edges": 162,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          98634.99632388915
+        ],
+        "signed_volume_mm3": 98634.9963238892,
+        "source_model": "embedded_orientable_g7_v42_shared_windows",
+        "source_stl_sha256": "2d3be5c9d9f6d04d28e133c45a744911ffe6d0d8fd9d5b6e6676b999dc7dbecd",
+        "sha256": "a1d631ea6e6635d50ccd9e85bb723e091ba38df8d29c15f04d3b4ac12b41e569"
+      }
+    },
+    {
+      "name": "embedded_orientable_g8_v48_shared_windows",
+      "paper_vertices": 48,
+      "polygon_edges": 104,
+      "polygon_faces": 42,
+      "euler_characteristic": -14,
+      "genus": 8,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.832595714594046,
+      "max_defect_error": 1.5543122344752192e-15,
+      "max_planarity_error": 4.440892098500626e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 48,
+        "triangles": 124,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 186
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 24.953473374481558
+      },
+      "stl": {
+        "vertices": 48,
+        "triangles": 124,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 186
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 24.95347510984666,
+        "max_float32_defect_error": 2.610428513349916e-07,
+        "sha256": "d53e4f956c0df676c9d0530363233bfc90d536489ed80c15ba9ddf485494a07b",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 16.568542494923804,
+        "vertices": 48,
+        "triangles": 124,
+        "edges": 186,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          113496.87961473483
+        ],
+        "signed_volume_mm3": 113496.87961473482,
+        "source_model": "embedded_orientable_g8_v48_shared_windows",
+        "source_stl_sha256": "d53e4f956c0df676c9d0530363233bfc90d536489ed80c15ba9ddf485494a07b",
+        "sha256": "cf6a9748d6d708895310678338c70e2bae9d3d385324c88f29d4aa33ff62bcd3"
+      }
+    },
+    {
+      "name": "embedded_orientable_g4_v21_central_handle",
+      "paper_vertices": 21,
+      "polygon_edges": 54,
+      "polygon_faces": 27,
+      "euler_characteristic": -6,
+      "genus": 4,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.7951958020513104,
+      "max_defect_error": 3.552713678800501e-15,
+      "max_planarity_error": 7.077671781985373e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 21,
+        "triangles": 54,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 81
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.601531691438259
+      },
+      "stl": {
+        "vertices": 21,
+        "triangles": 54,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 81
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.6015317102938237,
+        "max_float32_defect_error": 1.0645061188085947e-07,
+        "sha256": "95e4772b196e44379b05185b20cfd63e51a577bdf97c4366d31a3e417c22bd0c",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 40.0,
+        "vertices": 21,
+        "triangles": 54,
+        "edges": 81,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          38498.03093740109
+        ],
+        "signed_volume_mm3": 38498.03093740109,
+        "source_model": "embedded_orientable_g4_v21_central_handle",
+        "source_stl_sha256": "95e4772b196e44379b05185b20cfd63e51a577bdf97c4366d31a3e417c22bd0c",
+        "sha256": "f13be7ced99af4b2608d069b5a4b14f77ac45c37143590af0039f086a6b7dcde"
+      }
+    },
+    {
+      "name": "embedded_orientable_g5_v28_central_handle",
+      "paper_vertices": 28,
+      "polygon_edges": 72,
+      "polygon_faces": 36,
+      "euler_characteristic": -8,
+      "genus": 5,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.7951958020513104,
+      "max_defect_error": 1.7763568394002505e-15,
+      "max_planarity_error": 4.579669976578771e-16,
+      "triangulation_defect_error": 3.552713678800501e-15,
+      "triangulation": {
+        "vertices": 28,
+        "triangles": 72,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 108
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 1.144362633341087
+      },
+      "stl": {
+        "vertices": 28,
+        "triangles": 72,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 108
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 1.1443626520207317,
+        "max_float32_defect_error": 2.491992017183975e-07,
+        "sha256": "5a56b84aebf6d4ac6f5390dc7896fa9f253e82184cda9f72fead00bd4ecb0761",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 39.99999999999999,
+        "vertices": 28,
+        "triangles": 72,
+        "edges": 108,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          73239.20086878804
+        ],
+        "signed_volume_mm3": 73239.20086878806,
+        "source_model": "embedded_orientable_g5_v28_central_handle",
+        "source_stl_sha256": "5a56b84aebf6d4ac6f5390dc7896fa9f253e82184cda9f72fead00bd4ecb0761",
+        "sha256": "b2ad4eccfc33c25a7101acc39a0af0ee60c690325aa49ceb0aa2a17bad297672"
+      }
+    },
+    {
+      "name": "embedded_orientable_g6_v35_central_handle",
+      "paper_vertices": 35,
+      "polygon_edges": 90,
+      "polygon_faces": 45,
+      "euler_characteristic": -10,
+      "genus": 6,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.7951958020513104,
+      "max_defect_error": 3.552713678800501e-15,
+      "max_planarity_error": 6.800116025829084e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 35,
+        "triangles": 90,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 135
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 1.8909326953242858
+      },
+      "stl": {
+        "vertices": 35,
+        "triangles": 90,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 135
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 1.8909327216981975,
+        "max_float32_defect_error": 6.981173950038055e-07,
+        "sha256": "422df66e31b8519905d17cf08793a034f7bd0d3fe5a3959fb2edc7e94f477f8e",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 24.721359549995793,
+        "vertices": 35,
+        "triangles": 90,
+        "edges": 135,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          28568.8710849677
+        ],
+        "signed_volume_mm3": 28568.871084967686,
+        "source_model": "embedded_orientable_g6_v35_central_handle",
+        "source_stl_sha256": "422df66e31b8519905d17cf08793a034f7bd0d3fe5a3959fb2edc7e94f477f8e",
+        "sha256": "f3d4db093374b9098e579d04e439001d8491a0494f5b8acdf33d4f45f0843bf8"
+      }
+    },
+    {
+      "name": "embedded_orientable_g3_v32_drilled_windows",
+      "paper_vertices": 32,
+      "polygon_edges": 68,
+      "polygon_faces": 32,
+      "euler_characteristic": -4,
+      "genus": 3,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.7853981633974483,
+      "max_defect_error": 8.881784197001252e-16,
+      "max_planarity_error": 9.71445146547012e-17,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 32,
+        "triangles": 72,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 108
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 6.4136768588302004
+      },
+      "stl": {
+        "vertices": 32,
+        "triangles": 72,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 108
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 6.41367695772164,
+        "max_float32_defect_error": 7.533514789770379e-08,
+        "sha256": "777c362ff24935f708875881f9b208662f63d3c87562c93f6ce01632e55f2f34",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 39.999999999999986,
+        "vertices": 32,
+        "triangles": 72,
+        "edges": 108,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          410475.319023265
+        ],
+        "signed_volume_mm3": 410475.31902326504,
+        "source_model": "embedded_orientable_g3_v32_drilled_windows",
+        "source_stl_sha256": "777c362ff24935f708875881f9b208662f63d3c87562c93f6ce01632e55f2f34",
+        "sha256": "cf3a506d116f20c041a2c30285f3277c474dd6e5bc23bc16937ca2c86613909c"
+      }
+    },
+    {
+      "name": "embedded_orientable_g2_v24_historical_cube",
+      "paper_vertices": 24,
+      "polygon_edges": 44,
+      "polygon_faces": 18,
+      "euler_characteristic": -2,
+      "genus": 2,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.5235987755982988,
+      "max_defect_error": 5.551115123125783e-16,
+      "max_planarity_error": 8.326672684688674e-17,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 24,
+        "triangles": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 78
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 6.598818669086509
+      },
+      "stl": {
+        "vertices": 24,
+        "triangles": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 78
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 6.598818615606518,
+        "max_float32_defect_error": 7.205696217482682e-08,
+        "sha256": "73df9df685046ac649edb2fa07d9835763992df709fe7b0d6bca35ec7334a4c7",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "method": "Uniformly scaled embedded solid boundary; no thickening",
+        "size_mm": 80.0,
+        "scale": 40.0,
+        "vertices": 24,
+        "triangles": 52,
+        "edges": 78,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 1,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 0,
+        "shell_volumes_mm3": [
+          422324.410656009
+        ],
+        "signed_volume_mm3": 422324.4106560088,
+        "source_model": "embedded_orientable_g2_v24_historical_cube",
+        "source_stl_sha256": "73df9df685046ac649edb2fa07d9835763992df709fe7b0d6bca35ec7334a4c7",
+        "sha256": "98244eadc470f3764a43a5ce65958cba8d3e910e56f9aac3fbfc2629886a6297"
+      }
+    },
+    {
+      "name": "immersed_nonorientable_g1_v9_projective_plane",
+      "paper_vertices": 9,
+      "polygon_edges": 24,
+      "polygon_faces": 16,
+      "euler_characteristic": 1,
+      "genus": 1,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": 0.6981317007977318,
+      "max_defect_error": 2.55351295663786e-15,
+      "max_planarity_error": 3.3306690738754696e-16,
+      "triangulation_defect_error": 8.881784197001252e-16,
+      "triangulation": {
+        "vertices": 9,
+        "triangles": 16,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 24
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -0.40974465998488024
+      },
+      "stl": {
+        "vertices": 9,
+        "triangles": 16,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 24
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -0.40974465215500294,
+        "max_float32_defect_error": 1.438800483199998e-07,
+        "sha256": "03038ededbc72d2d9b5551a4a35ab21b66e47a54be1cb34a0e8825b239010472",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 80483,
+        "triangles": 160954,
+        "edges": 241431,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 5,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 4,
+        "shell_volumes_mm3": [
+          84399.96041528854,
+          -3890.380275412693,
+          -27276.47554951712,
+          -3892.3097268730608,
+          -3892.228553774578
+        ],
+        "signed_volume_mm3": 45448.566309710695,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 33.202771680975395,
+        "source_center": [
+          -2.220446049250313e-16,
+          0.2625319649651409,
+          0.717031733410094
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          102,
+          68
+        ],
+        "extent_mm": [
+          82.20722198486328,
+          77.12603759765625,
+          49.94548988342285
+        ],
+        "source_vertices": 9,
+        "source_triangles": 16,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 6,
+        "subvoxel_cavities_filled_mm3": 0.02297320669601747,
+        "elapsed_seconds": 0.85,
+        "float32_welded_vertices": 1,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 4,
+        "source_model": "immersed_nonorientable_g1_v9_projective_plane",
+        "source_stl_sha256": "03038ededbc72d2d9b5551a4a35ab21b66e47a54be1cb34a0e8825b239010472",
+        "sha256": "a176a4fea2f8751b706bd3f7c51a98d4f8d8091783f8f20b8eafe8fbb98db687"
+      }
+    },
+    {
+      "name": "immersed_nonorientable_g2_v15_klein_bottle",
+      "paper_vertices": 15,
+      "polygon_edges": 45,
+      "polygon_faces": 30,
+      "euler_characteristic": 0,
+      "genus": 2,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": 0.0,
+      "max_defect_error": 3.552713678800501e-15,
+      "max_planarity_error": 2.220446049250313e-16,
+      "triangulation_defect_error": 2.6645352591003757e-15,
+      "triangulation": {
+        "vertices": 15,
+        "triangles": 30,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 45
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 3.700743415417188e-17
+      },
+      "stl": {
+        "vertices": 15,
+        "triangles": 30,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 45
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 9.251858538542972e-17,
+        "max_float32_defect_error": 1.4358908995149022e-07,
+        "sha256": "235dccaf18fd3f73494fe9a0f8b00a4cd4acd1b2ea7fd22f4398dc11898007ad",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 92581,
+        "triangles": 185130,
+        "edges": 277695,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 8,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 7,
+        "shell_volumes_mm3": [
+          122907.4135954007,
+          -724.6399408686433,
+          -731.8744226513222,
+          -64029.0562021834,
+          -723.8673013546551,
+          -731.6833301800432,
+          -725.5521110998433,
+          -732.860625370279
+        ],
+        "signed_volume_mm3": 54507.879661691644,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 46.188021535170066,
+        "source_center": [
+          0.14492087216041527,
+          1.1102230246251565e-16,
+          0.0
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          107,
+          108,
+          78
+        ],
+        "extent_mm": [
+          81.17842483520508,
+          82.23780822753906,
+          58.26197052001953
+        ],
+        "source_vertices": 15,
+        "source_triangles": 30,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 5,
+        "subvoxel_cavities_filled_mm3": 0.024291338784342257,
+        "elapsed_seconds": 1.07,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "immersed_nonorientable_g2_v15_klein_bottle",
+        "source_stl_sha256": "235dccaf18fd3f73494fe9a0f8b00a4cd4acd1b2ea7fd22f4398dc11898007ad",
+        "sha256": "9461d6f24bd0ab349c365b1d85ce9f1410ce9903c0a2ce0df241eba82cacdda7"
+      }
+    },
+    {
+      "name": "immersed_nonorientable_g3_v27_mobius_bands",
+      "paper_vertices": 27,
+      "polygon_edges": 78,
+      "polygon_faces": 50,
+      "euler_characteristic": -1,
+      "genus": 3,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.23271056693257727,
+      "max_defect_error": 5.3013149425851225e-15,
+      "max_planarity_error": 2.220446049250313e-16,
+      "triangulation_defect_error": 3.552713678800501e-15,
+      "triangulation": {
+        "vertices": 27,
+        "triangles": 56,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 84
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -10.381613420321328
+      },
+      "stl": {
+        "vertices": 27,
+        "triangles": 56,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 84
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -10.381613285904217,
+        "max_float32_defect_error": 7.622724202960285e-07,
+        "sha256": "ad3b4e5d09c6c2e1bd2f07885ebafda9fbee7f002724ed4032154a9a39dba6d9",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 53133,
+        "triangles": 106258,
+        "edges": 159387,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 3,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 2,
+        "shell_volumes_mm3": [
+          93984.65038865079,
+          -62234.799361960184,
+          -3.9166289765463964
+        ],
+        "signed_volume_mm3": 31745.934397721387,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 17.935299855423867,
+        "source_center": [
+          0.20013659601801925,
+          0.07580003925234657,
+          0.7974721698994204
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          100,
+          108,
+          50
+        ],
+        "extent_mm": [
+          75.28391647338867,
+          82.2407341003418,
+          35.49325370788574
+        ],
+        "source_vertices": 27,
+        "source_triangles": 56,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 13,
+        "subvoxel_cavities_filled_mm3": 0.04487920576650512,
+        "elapsed_seconds": 0.509,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "immersed_nonorientable_g3_v27_mobius_bands",
+        "source_stl_sha256": "ad3b4e5d09c6c2e1bd2f07885ebafda9fbee7f002724ed4032154a9a39dba6d9",
+        "sha256": "4b72e25a2a0f9cf7fb5cd244ea587498b23edb360db37ce8166666f266e5f5b5"
+      }
+    },
+    {
+      "name": "immersed_nonorientable_g4_v36_mobius_bands",
+      "paper_vertices": 36,
+      "polygon_edges": 104,
+      "polygon_faces": 66,
+      "euler_characteristic": -2,
+      "genus": 4,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.3490658503988659,
+      "max_defect_error": 3.941291737419306e-15,
+      "max_planarity_error": 2.220446049250313e-16,
+      "triangulation_defect_error": 2.6645352591003757e-15,
+      "triangulation": {
+        "vertices": 36,
+        "triangles": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 114
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -17.22040461895482
+      },
+      "stl": {
+        "vertices": 36,
+        "triangles": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 114
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -17.220405999862848,
+        "max_float32_defect_error": 5.347547400447183e-07,
+        "sha256": "84da9936fb7968abd91eb7e94505cc12c290fed5cc938faea6df6945a48532d7",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 49808,
+        "triangles": 99608,
+        "edges": 149412,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 2,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 1,
+        "shell_volumes_mm3": [
+          90348.3202763675,
+          -60461.77991589576
+        ],
+        "signed_volume_mm3": 29886.54036046379,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 14.144020008508631,
+        "source_center": [
+          0.0,
+          0.0,
+          0.8084956217499852
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          108,
+          40
+        ],
+        "extent_mm": [
+          82.26213836669922,
+          82.26213836669922,
+          27.813894271850586
+        ],
+        "source_vertices": 36,
+        "source_triangles": 76,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.368,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "immersed_nonorientable_g4_v36_mobius_bands",
+        "source_stl_sha256": "84da9936fb7968abd91eb7e94505cc12c290fed5cc938faea6df6945a48532d7",
+        "sha256": "403d2ef462bb1c0c322e7ed2cd892d4aa875d1368e1753cf69e31a4ef91e940f"
+      }
+    },
+    {
+      "name": "immersed_nonorientable_g5_v45_mobius_bands",
+      "paper_vertices": 45,
+      "polygon_edges": 130,
+      "polygon_faces": 82,
+      "euler_characteristic": -3,
+      "genus": 5,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.41887902047863906,
+      "max_defect_error": 3.83026943495679e-15,
+      "max_planarity_error": 4.440892098500626e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 45,
+        "triangles": 96,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 144
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -25.574200655435877
+      },
+      "stl": {
+        "vertices": 45,
+        "triangles": 96,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 144
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -25.574199423773848,
+        "max_float32_defect_error": 6.985892726518728e-07,
+        "sha256": "2c2c3cc7836a0258af506c25bdb0655c984a1fbdb0d8b04962641876d95973e2",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 47028,
+        "triangles": 94048,
+        "edges": 141072,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 2,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 1,
+        "shell_volumes_mm3": [
+          86598.99972635882,
+          -57111.0778884878
+        ],
+        "signed_volume_mm3": 29487.921837887527,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 11.764520893190992,
+        "source_center": [
+          0.13781161316933654,
+          -4.440892098500626e-16,
+          0.8108086025929304
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          106,
+          108,
+          35
+        ],
+        "extent_mm": [
+          80.01235961914062,
+          82.2579574584961,
+          23.27101421356201
+        ],
+        "source_vertices": 45,
+        "source_triangles": 96,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.339,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "immersed_nonorientable_g5_v45_mobius_bands",
+        "source_stl_sha256": "2c2c3cc7836a0258af506c25bdb0655c984a1fbdb0d8b04962641876d95973e2",
+        "sha256": "d335d9775fa47263cd3789e98b88d30bdca97786867269d5da782b1482a72794"
+      }
+    },
+    {
+      "name": "immersed_nonorientable_g6_v54_mobius_bands",
+      "paper_vertices": 54,
+      "polygon_edges": 156,
+      "polygon_faces": 98,
+      "euler_characteristic": -4,
+      "genus": 6,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.46542113386515455,
+      "max_defect_error": 1.145195049900849e-13,
+      "max_planarity_error": 4.440892098500626e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 54,
+        "triangles": 116,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 174
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -35.476097076540775
+      },
+      "stl": {
+        "vertices": 54,
+        "triangles": 116,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 174
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -35.47609896612411,
+        "max_float32_defect_error": 7.493266753755279e-07,
+        "sha256": "97333a925fcd63fcc8bbe779d587f03429cad58c7411bf320f771f449740294e",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 44000,
+        "triangles": 87992,
+        "edges": 131988,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 2,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 1,
+        "shell_volumes_mm3": [
+          77176.22210759029,
+          -49147.35769937719
+        ],
+        "signed_volume_mm3": 28028.864408223417,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 9.853664649809085,
+        "source_center": [
+          0.0,
+          4.440892098500626e-16,
+          0.810627962465509
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          102,
+          30
+        ],
+        "extent_mm": [
+          82.22089385986328,
+          77.14170455932617,
+          19.732385635375977
+        ],
+        "source_vertices": 54,
+        "source_triangles": 116,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.302,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "immersed_nonorientable_g6_v54_mobius_bands",
+        "source_stl_sha256": "97333a925fcd63fcc8bbe779d587f03429cad58c7411bf320f771f449740294e",
+        "sha256": "3c6ed7cda40771dd0219aa1c854dc0c3b0d2d12fe235b36dc20343b4115f086e"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g1_v6_tetrahemihexahedron",
+      "paper_vertices": 6,
+      "polygon_edges": 12,
+      "polygon_faces": 7,
+      "euler_characteristic": 1,
+      "genus": 1,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": 1.0471975511965976,
+      "max_defect_error": 6.661338147750939e-16,
+      "max_planarity_error": 1.1102230246251565e-16,
+      "triangulation_defect_error": 8.881784197001252e-16,
+      "triangulation": {
+        "vertices": 6,
+        "triangles": 10,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 15
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.8164965809277259
+      },
+      "stl": {
+        "vertices": 6,
+        "triangles": 10,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 15
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.8164965522993128,
+        "max_float32_defect_error": 3.586090979723622e-08,
+        "sha256": "19fd9805a106a95d22f800dccddafd7cba827934ef6ac35e8886133cacb2587f",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 95279,
+        "triangles": 190538,
+        "edges": 285807,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 5,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 4,
+        "shell_volumes_mm3": [
+          105544.64730641301,
+          -13596.785430114911,
+          -13591.82825976814,
+          -13552.570722960072,
+          -13615.534889394563
+        ],
+        "signed_volume_mm3": 51187.928004186986,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 40.0,
+        "source_center": [
+          0.0,
+          0.0,
+          0.7071067811865476
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          95,
+          79
+        ],
+        "extent_mm": [
+          82.2598991394043,
+          71.61347961425781,
+          58.904754638671875
+        ],
+        "source_vertices": 6,
+        "source_triangles": 10,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.777,
+        "float32_welded_vertices": 96,
+        "float32_collapsed_triangles_removed": 192,
+        "float32_coincident_triangles_removed": 6,
+        "source_model": "singular_nonorientable_g1_v6_tetrahemihexahedron",
+        "source_stl_sha256": "19fd9805a106a95d22f800dccddafd7cba827934ef6ac35e8886133cacb2587f",
+        "sha256": "1c5eae39f786db6aafeebfdc5d8dfe8c88b070074c931a28616ed022d83c48b6"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g2_v9_klein_bottle",
+      "paper_vertices": 9,
+      "polygon_edges": 21,
+      "polygon_faces": 12,
+      "euler_characteristic": 0,
+      "genus": 2,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": 0.0,
+      "max_defect_error": 8.881784197001252e-16,
+      "max_planarity_error": 1.1102230246251565e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 9,
+        "triangles": 18,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 27
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": -1.4802973661668753e-16
+      },
+      "stl": {
+        "vertices": 9,
+        "triangles": 18,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 27
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.0,
+        "max_float32_defect_error": 4.328292657618249e-08,
+        "sha256": "b5c67d13d4861a204db580b8ed39191ced51ff99c47e79a6b852a978618fe777",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 51594,
+        "triangles": 103156,
+        "edges": 154734,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 8,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 7,
+        "shell_volumes_mm3": [
+          47198.302518269054,
+          -13324.93310615214,
+          -915.784555550995,
+          -916.2746980906546,
+          -915.6342517006087,
+          -914.9990141768036,
+          -913.4381584850304,
+          -913.3943972836915
+        ],
+        "signed_volume_mm3": 28383.84433682885,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 27.94376844200037,
+        "source_center": [
+          0.25,
+          0.0,
+          0.0
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          61,
+          69,
+          108
+        ],
+        "extent_mm": [
+          44.17827224731445,
+          50.47445487976074,
+          82.39999771118164
+        ],
+        "source_vertices": 9,
+        "source_triangles": 18,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 4,
+        "subvoxel_cavities_filled_mm3": 0.04808039759204879,
+        "elapsed_seconds": 0.49,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g2_v9_klein_bottle",
+        "source_stl_sha256": "b5c67d13d4861a204db580b8ed39191ced51ff99c47e79a6b852a978618fe777",
+        "sha256": "c68e5185644f1bc63d9d4a73e3789e2210245a01c5ef6e630f46edcfd5c7b662"
+      }
+    },
+    {
+      "name": "singular_orientable_g1_v6_flat_torus",
+      "paper_vertices": 6,
+      "polygon_edges": 15,
+      "polygon_faces": 9,
+      "euler_characteristic": 0,
+      "genus": 1,
+      "orientable": true,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": 0.0,
+      "max_defect_error": 0.0,
+      "max_planarity_error": 5.551115123125783e-17,
+      "triangulation_defect_error": 8.881784197001252e-16,
+      "triangulation": {
+        "vertices": 6,
+        "triangles": 12,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 3,
+        "edge_incidence": {
+          "2": 12,
+          "4": 3
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.43301270189221935
+      },
+      "stl": {
+        "vertices": 21,
+        "triangles": 42,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 63
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.43301269238135126,
+        "max_float32_defect_error": 3.0527079530884293e-08,
+        "sha256": "b9c4cdf45bab88981a842b31dd32d0303f7d10e23d0919a54a46246d9e85cea5",
+        "added_flat_vertices": 15
+      },
+      "printable": {
+        "vertices": 159824,
+        "triangles": 319580,
+        "edges": 479370,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 17,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 16,
+        "shell_volumes_mm3": [
+          205787.22628211053,
+          -12807.108826592843,
+          -7762.144440943151,
+          -7759.783725263179,
+          -7734.171978457269,
+          -7732.952971306343,
+          -3354.419176749255,
+          -3355.1401320134346,
+          -3953.2181740801375,
+          -12851.483540242127,
+          -3354.486132098058,
+          -3353.3552196021196,
+          -3354.1395452291413,
+          -3353.489417944752,
+          -7761.810445135245,
+          -7759.685571107374,
+          -12806.200487998183
+        ],
+        "signed_volume_mm3": 96733.6364973525,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 80.0,
+        "source_center": [
+          0.0,
+          0.4330127018922193,
+          0.5
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          95,
+          108
+        ],
+        "extent_mm": [
+          82.20329666137695,
+          71.54191970825195,
+          82.39999008178711
+        ],
+        "source_vertices": 6,
+        "source_triangles": 12,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 20,
+        "subvoxel_cavities_filled_mm3": 0.23750666944159252,
+        "elapsed_seconds": 1.904,
+        "float32_welded_vertices": 88,
+        "float32_collapsed_triangles_removed": 176,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_orientable_g1_v6_flat_torus",
+        "source_stl_sha256": "b9c4cdf45bab88981a842b31dd32d0303f7d10e23d0919a54a46246d9e85cea5",
+        "sha256": "6ebb1ad236d7792b2303f55cb8ca8a4f3cf780816edcaf6d7ca349557bcaa8d7"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g3_v15_antiprism",
+      "paper_vertices": 15,
+      "polygon_edges": 39,
+      "polygon_faces": 23,
+      "euler_characteristic": -1,
+      "genus": 3,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.41887902047863906,
+      "max_defect_error": 1.1657341758564144e-15,
+      "max_planarity_error": 2.220446049250313e-16,
+      "triangulation_defect_error": 2.6645352591003757e-15,
+      "triangulation": {
+        "vertices": 15,
+        "triangles": 32,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 48
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 2.125599881012502
+      },
+      "stl": {
+        "vertices": 15,
+        "triangles": 32,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 48
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 2.125599865382583,
+        "max_float32_defect_error": 1.9829094011214465e-07,
+        "sha256": "ad86623934e12f5b5ab3f84503579bf920db184bfaec02964d01eab37f343dba",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 66045,
+        "triangles": 132046,
+        "edges": 198069,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 11,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 10,
+        "shell_volumes_mm3": [
+          82663.46962090682,
+          -43227.10335025727,
+          -294.0204171274391,
+          -294.1955510821834,
+          -292.5873517568664,
+          -292.000051482964,
+          -293.84508049736814,
+          -293.8382877349179,
+          -292.13406422276745,
+          -293.732431119793,
+          -293.3112173782959
+        ],
+        "signed_volume_mm3": 36796.701818244095,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 30.30063347260718,
+        "source_center": [
+          0.22577463036168688,
+          0.0,
+          0.7357567750287656
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          101,
+          108,
+          64
+        ],
+        "extent_mm": [
+          76.49944305419922,
+          82.31549835205078,
+          46.92617607116699
+        ],
+        "source_vertices": 15,
+        "source_triangles": 32,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 7,
+        "subvoxel_cavities_filled_mm3": 0.12736366201316374,
+        "elapsed_seconds": 0.679,
+        "float32_welded_vertices": 2,
+        "float32_collapsed_triangles_removed": 4,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g3_v15_antiprism",
+        "source_stl_sha256": "ad86623934e12f5b5ab3f84503579bf920db184bfaec02964d01eab37f343dba",
+        "sha256": "4ff06c67df7b1d3ba64e2581f75980bd7caf69cac3db64ebb3083096c8a892d0"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g5_v25_antiprism",
+      "paper_vertices": 25,
+      "polygon_edges": 65,
+      "polygon_faces": 37,
+      "euler_characteristic": -3,
+      "genus": 5,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.7539822368615503,
+      "max_defect_error": 1.5543122344752192e-15,
+      "max_planarity_error": 2.498001805406602e-16,
+      "triangulation_defect_error": 2.6645352591003757e-15,
+      "triangulation": {
+        "vertices": 25,
+        "triangles": 56,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 84
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 4.761289992014149
+      },
+      "stl": {
+        "vertices": 25,
+        "triangles": 56,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 84
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 4.7612898234962,
+        "max_float32_defect_error": 5.675492245060809e-07,
+        "sha256": "1a7773920966cc54498733d9e42a952597e234c369f85078a8f28c87ba164b69",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 51165,
+        "triangles": 102262,
+        "edges": 153393,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 17,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 16,
+        "shell_volumes_mm3": [
+          72371.07068871669,
+          -1.5306222779935126,
+          -1.5268237581455644,
+          -1.376302705148236,
+          -1.3713556110787157,
+          -1.1868691133689966,
+          -1.17704313899275,
+          -42298.1510717247,
+          -1.3436442100591997,
+          -1.3456499716429011,
+          -1.3221431581590137,
+          -1.3328333847785805,
+          -1.0539062340371692,
+          -1.0374552959250065,
+          -0.6694876336618261,
+          -0.7289969479788855,
+          -0.7231043805813634
+        ],
+        "signed_volume_mm3": 30055.193379180015,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 21.25730180748096,
+        "source_center": [
+          0.1889340591810733,
+          0.0,
+          0.6783497476038514
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          104,
+          108,
+          45
+        ],
+        "extent_mm": [
+          78.32357788085938,
+          82.19644927978516,
+          31.230082511901855
+        ],
+        "source_vertices": 25,
+        "source_triangles": 56,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 25,
+        "subvoxel_cavities_filled_mm3": 0.5938757723723818,
+        "elapsed_seconds": 0.465,
+        "float32_welded_vertices": 6,
+        "float32_collapsed_triangles_removed": 12,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g5_v25_antiprism",
+        "source_stl_sha256": "1a7773920966cc54498733d9e42a952597e234c369f85078a8f28c87ba164b69",
+        "sha256": "d702601485033054df1b708491a19824beb5a1c9459f95de6c4307949a8fed71"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g7_v35_antiprism",
+      "paper_vertices": 35,
+      "polygon_edges": 91,
+      "polygon_faces": 51,
+      "euler_characteristic": -5,
+      "genus": 7,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.8975979010256552,
+      "max_defect_error": 4.440892098500626e-15,
+      "max_planarity_error": 2.220446049250313e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 35,
+        "triangles": 80,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 120
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 7.59309045213255
+      },
+      "stl": {
+        "vertices": 35,
+        "triangles": 80,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 120
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 7.59309038269907,
+        "max_float32_defect_error": 5.776769098631007e-07,
+        "sha256": "0eab73b2ecce366da4250641d0bbb7b6d287a5e52b936390326bd9eade2e17e3",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 49377,
+        "triangles": 98746,
+        "edges": 148119,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 2,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 1,
+        "shell_volumes_mm3": [
+          67558.69088746069,
+          -38407.17686826287
+        ],
+        "signed_volume_mm3": 29151.51401920309,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 17.15050885662655,
+        "source_center": [
+          0.11845468030205208,
+          2.220446049250313e-16,
+          0.5962083055856965
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          106,
+          108,
+          34
+        ],
+        "extent_mm": [
+          80.22156143188477,
+          82.31195831298828,
+          22.78206443786621
+        ],
+        "source_vertices": 35,
+        "source_triangles": 80,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.326,
+        "float32_welded_vertices": 4,
+        "float32_collapsed_triangles_removed": 4,
+        "float32_coincident_triangles_removed": 4,
+        "source_model": "singular_nonorientable_g7_v35_antiprism",
+        "source_stl_sha256": "0eab73b2ecce366da4250641d0bbb7b6d287a5e52b936390326bd9eade2e17e3",
+        "sha256": "9d8ca527b9fe23298ccd41eb539839ca3dc631fcf7ec6958af2696e68fc1cfc9"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g9_v45_antiprism",
+      "paper_vertices": 45,
+      "polygon_edges": 117,
+      "polygon_faces": 65,
+      "euler_characteristic": -7,
+      "genus": 9,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.9773843811168246,
+      "max_defect_error": 3.9968028886505635e-15,
+      "max_planarity_error": 3.608224830031759e-16,
+      "triangulation_defect_error": 2.6645352591003757e-15,
+      "triangulation": {
+        "vertices": 45,
+        "triangles": 104,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 156
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 10.048261544913808
+      },
+      "stl": {
+        "vertices": 45,
+        "triangles": 104,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 156
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 10.048262185857263,
+        "max_float32_defect_error": 2.565804326337684e-06,
+        "sha256": "ec2fbb1037326f9d7b327d7ef97f6b63bbfeb4e7a56013a9ecdbe69894c95e42",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 50250,
+        "triangles": 100492,
+        "edges": 150738,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 2,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 1,
+        "shell_volumes_mm3": [
+          62549.61622889156,
+          -32011.37092134376
+        ],
+        "signed_volume_mm3": 30538.245307545934,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 14.827856316194877,
+        "source_center": [
+          0.08259820764541725,
+          0.0,
+          0.5663966862284766
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.400018310477026,
+        "isosurface_level_relative_adjustment": 1.52587890625e-05,
+        "grid_shape": [
+          107,
+          108,
+          29
+        ],
+        "extent_mm": [
+          81.04536437988281,
+          82.39740371704102,
+          19.194893836975098
+        ],
+        "source_vertices": 45,
+        "source_triangles": 104,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.446,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g9_v45_antiprism",
+        "source_stl_sha256": "ec2fbb1037326f9d7b327d7ef97f6b63bbfeb4e7a56013a9ecdbe69894c95e42",
+        "sha256": "49bedcbe4ac355afcd52c2608d73d935c83fece1e852511722bac0da926d002e"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g11_v55_antiprism",
+      "paper_vertices": 55,
+      "polygon_edges": 143,
+      "polygon_faces": 79,
+      "euler_characteristic": -9,
+      "genus": 11,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.028157595720296,
+      "max_defect_error": 3.1086244689504383e-15,
+      "max_planarity_error": 3.885780586188048e-16,
+      "triangulation_defect_error": 2.6645352591003757e-15,
+      "triangulation": {
+        "vertices": 55,
+        "triangles": 128,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 192
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 10.628815043135495
+      },
+      "stl": {
+        "vertices": 55,
+        "triangles": 128,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 192
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 10.628815401524687,
+        "max_float32_defect_error": 1.3119411770290412e-06,
+        "sha256": "e488077d3cdb97c0edc7593120367dc07df3e6114094af394ab9297c745669b3",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 49794,
+        "triangles": 99580,
+        "edges": 149370,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 2,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 1,
+        "shell_volumes_mm3": [
+          49468.34647256991,
+          -17637.907526237912
+        ],
+        "signed_volume_mm3": 31830.438946335,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 13.14648162988148,
+        "source_center": [
+          -0.04814057985273679,
+          -2.220446049250313e-16,
+          0.5687945913257172
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.400018310477026,
+        "isosurface_level_relative_adjustment": 1.52587890625e-05,
+        "grid_shape": [
+          108,
+          108,
+          27
+        ],
+        "extent_mm": [
+          81.7518081665039,
+          82.30561065673828,
+          17.288887977600098
+        ],
+        "source_vertices": 55,
+        "source_triangles": 128,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.448,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g11_v55_antiprism",
+        "source_stl_sha256": "e488077d3cdb97c0edc7593120367dc07df3e6114094af394ab9297c745669b3",
+        "sha256": "b2dd24c73bedee21a63add3dd2e747c8295057abdb25ea44f30bfc1a724b5956"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g3_v18_uniform_core",
+      "paper_vertices": 18,
+      "polygon_edges": 42,
+      "polygon_faces": 23,
+      "euler_characteristic": -1,
+      "genus": 3,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.3490658503988659,
+      "max_defect_error": 1.3877787807814457e-15,
+      "max_planarity_error": 1.1728983714093074e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 18,
+        "triangles": 38,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 57
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.7772382887211347
+      },
+      "stl": {
+        "vertices": 18,
+        "triangles": 38,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 57
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 0.7772384319705613,
+        "max_float32_defect_error": 2.5422098204330723e-07,
+        "sha256": "3084c2ee166ba951897ea2dd659550f15ea8de7b59923a1ff480e11b3ddb2186",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 54892,
+        "triangles": 109740,
+        "edges": 164610,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 11,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 10,
+        "shell_volumes_mm3": [
+          98424.20820632596,
+          -65227.86991298804,
+          -12.918248648277126,
+          -12.95225303403778,
+          -13.334089471100452,
+          -13.33647284849325,
+          -11.658462443910457,
+          -11.658277504708462,
+          -12.550570550414818,
+          -12.922364231825,
+          -12.740993812344517
+        ],
+        "signed_volume_mm3": 33082.26656077881,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 21.230852741479364,
+        "source_center": [
+          0.2672229486364467,
+          1.1102230246251565e-16,
+          0.7461034775595268
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          102,
+          108,
+          48
+        ],
+        "extent_mm": [
+          77.22596740722656,
+          82.21749114990234,
+          34.01226234436035
+        ],
+        "source_vertices": 18,
+        "source_triangles": 38,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 13,
+        "subvoxel_cavities_filled_mm3": 0.09793412128204806,
+        "elapsed_seconds": 0.43,
+        "float32_welded_vertices": 47,
+        "float32_collapsed_triangles_removed": 94,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g3_v18_uniform_core",
+        "source_stl_sha256": "3084c2ee166ba951897ea2dd659550f15ea8de7b59923a1ff480e11b3ddb2186",
+        "sha256": "a852a848c821440b979b1f1ca24236c3247a4497537be4d6f73d12a0682061cf"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g4_v24_uniform_core",
+      "paper_vertices": 24,
+      "polygon_edges": 56,
+      "polygon_faces": 30,
+      "euler_characteristic": -2,
+      "genus": 4,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.5235987755982988,
+      "max_defect_error": 2.3314683517128287e-15,
+      "max_planarity_error": 2.220446049250313e-16,
+      "triangulation_defect_error": 2.6645352591003757e-15,
+      "triangulation": {
+        "vertices": 24,
+        "triangles": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 78
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 1.5157710857818885
+      },
+      "stl": {
+        "vertices": 24,
+        "triangles": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 78
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 1.5157713202385754,
+        "max_float32_defect_error": 3.9907343207801205e-07,
+        "sha256": "e4e984e2a46613d6466b6198653fda0ae1f2235df75e1c321317f8b479d6bd60",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 40888,
+        "triangles": 81768,
+        "edges": 122652,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 2,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 1,
+        "shell_volumes_mm3": [
+          64555.33362286441,
+          -40188.93657238855
+        ],
+        "signed_volume_mm3": 24366.39705048431,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 14.37001075545272,
+        "source_center": [
+          0.0,
+          0.0,
+          0.7409710558966915
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          108,
+          35
+        ],
+        "extent_mm": [
+          82.17316436767578,
+          82.17316436767578,
+          23.627222061157227
+        ],
+        "source_vertices": 24,
+        "source_triangles": 52,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 8,
+        "subvoxel_cavities_filled_mm3": 0.010836301165590229,
+        "elapsed_seconds": 0.29,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g4_v24_uniform_core",
+        "source_stl_sha256": "e4e984e2a46613d6466b6198653fda0ae1f2235df75e1c321317f8b479d6bd60",
+        "sha256": "1140eac90c636b0a965333b98df36d7e81719c34783d69f630a1563ff4055faf"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g13_v78_uniform_core",
+      "paper_vertices": 78,
+      "polygon_edges": 182,
+      "polygon_faces": 93,
+      "euler_characteristic": -11,
+      "genus": 13,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.8860902356278902,
+      "max_defect_error": 1.9872992140790302e-14,
+      "max_planarity_error": 6.661338147750939e-16,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 78,
+        "triangles": 178,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 267
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 9.738327101506366
+      },
+      "stl": {
+        "vertices": 78,
+        "triangles": 178,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 267
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 9.738325870442964,
+        "max_float32_defect_error": 6.176949180591862e-06,
+        "sha256": "57b1dadd74d99f35eee76ff566648c4fcbae234439480f1cf067e12cb49ef435",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 32565,
+        "triangles": 65122,
+        "edges": 97683,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 2,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 1,
+        "shell_volumes_mm3": [
+          38813.893217723824,
+          -16169.521855471636
+        ],
+        "signed_volume_mm3": 22644.371362244616,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 4.944713478005864,
+        "source_center": [
+          0.11839555786380007,
+          8.881784197001252e-16,
+          0.7213066465256722
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          108,
+          17
+        ],
+        "extent_mm": [
+          81.60075378417969,
+          82.19049835205078,
+          9.505095481872559
+        ],
+        "source_vertices": 78,
+        "source_triangles": 178,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.245,
+        "float32_welded_vertices": 7,
+        "float32_collapsed_triangles_removed": 14,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g13_v78_uniform_core",
+        "source_stl_sha256": "57b1dadd74d99f35eee76ff566648c4fcbae234439480f1cf067e12cb49ef435",
+        "sha256": "f13892b75226c649f048aeacff62d4328da017351a27a317930a811bf0e9e620"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g4_v24_historical_cuboctahedron",
+      "paper_vertices": 24,
+      "polygon_edges": 60,
+      "polygon_faces": 34,
+      "euler_characteristic": -2,
+      "genus": 4,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -0.5235987755982988,
+      "max_defect_error": 1.2212453270876722e-15,
+      "max_planarity_error": 5.551115123125783e-17,
+      "triangulation_defect_error": 8.881784197001252e-16,
+      "triangulation": {
+        "vertices": 24,
+        "triangles": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 78
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 15.142057115535964
+      },
+      "stl": {
+        "vertices": 24,
+        "triangles": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 78
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 15.142058348602712,
+        "max_float32_defect_error": 2.1770429015077752e-07,
+        "sha256": "85e62c6dcba326663b77fe48f31b08a2284f70ee3a942bf0ef197be580409524",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 95976,
+        "triangles": 191896,
+        "edges": 287844,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 14,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 13,
+        "shell_volumes_mm3": [
+          282419.4831300884,
+          -69.2759809218287,
+          -69.2728905778016,
+          -69.32865444783677,
+          -69.3333239628419,
+          -219117.49307421257,
+          -69.28173186519201,
+          -69.39490309839029,
+          -69.3333604731511,
+          -69.32859542695282,
+          -69.3286207324023,
+          -69.3907596187342,
+          -69.3332968615574,
+          -69.39216577707663
+        ],
+        "signed_volume_mm3": 62469.995772128284,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 26.416236407862943,
+        "source_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          108,
+          108
+        ],
+        "extent_mm": [
+          82.26186752319336,
+          82.26186752319336,
+          82.26186752319336
+        ],
+        "source_vertices": 24,
+        "source_triangles": 52,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.465,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g4_v24_historical_cuboctahedron",
+        "source_stl_sha256": "85e62c6dcba326663b77fe48f31b08a2284f70ee3a942bf0ef197be580409524",
+        "sha256": "58ece32d8a463eb7b80e646161d0eafe81b7236b7d48644ddc05bd32b87f6956"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g4_v12_cubohemioctahedron",
+      "paper_vertices": 12,
+      "polygon_edges": 24,
+      "polygon_faces": 10,
+      "euler_characteristic": -2,
+      "genus": 4,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.0471975511965976,
+      "max_defect_error": 6.661338147750939e-16,
+      "max_planarity_error": 0.0,
+      "triangulation_defect_error": 1.7763568394002505e-15,
+      "triangulation": {
+        "vertices": 12,
+        "triangles": 28,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 1,
+        "edge_incidence": {
+          "2": 40,
+          "4": 1
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 4.0
+      },
+      "stl": {
+        "vertices": 58,
+        "triangles": 120,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 180
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 4.0,
+        "max_float32_defect_error": 2.042810365310288e-14,
+        "sha256": "2dbaa10380b5359c1bd94103a01840338d914331d4c5526b6fa9442b8b81b4b1",
+        "added_flat_vertices": 46
+      },
+      "printable": {
+        "vertices": 211752,
+        "triangles": 423476,
+        "edges": 635214,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 7,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 6,
+        "shell_volumes_mm3": [
+          317966.84249528695,
+          -32932.174739991766,
+          -32932.174825626586,
+          -32932.17478280858,
+          -32932.17329090773,
+          -32932.173294205175,
+          -32932.17328761103
+        ],
+        "signed_volume_mm3": 120373.79827420018,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 40.0,
+        "source_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.400018310477026,
+        "isosurface_level_relative_adjustment": 1.52587890625e-05,
+        "grid_shape": [
+          108,
+          108,
+          108
+        ],
+        "extent_mm": [
+          82.40001678466797,
+          82.40001678466797,
+          82.40001678466797
+        ],
+        "source_vertices": 12,
+        "source_triangles": 28,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 2.263,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g4_v12_cubohemioctahedron",
+        "source_stl_sha256": "2dbaa10380b5359c1bd94103a01840338d914331d4c5526b6fa9442b8b81b4b1",
+        "sha256": "ee033abd927efe1c50bd748c24cded6bf44502057c8e079db1d9d5cda52f007e"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g6_v24_cubohemioctahedron_hexagonal_drilling",
+      "paper_vertices": 24,
+      "polygon_edges": 50,
+      "polygon_faces": 22,
+      "euler_characteristic": -4,
+      "genus": 6,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.0471975511965976,
+      "max_defect_error": 6.661338147750939e-16,
+      "max_planarity_error": 3.0814879110195774e-33,
+      "triangulation_defect_error": 8.881784197001252e-16,
+      "triangulation": {
+        "vertices": 24,
+        "triangles": 56,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 1,
+        "edge_incidence": {
+          "2": 82,
+          "4": 1
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 2.5544297743362034
+      },
+      "stl": {
+        "vertices": 114,
+        "triangles": 236,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 354
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 2.55442976782624,
+        "max_float32_defect_error": 2.858477898826095e-10,
+        "sha256": "0a78c26439660a51be7d2904bf82f167e1df3bf17992916680913291b7af0705",
+        "added_flat_vertices": 90
+      },
+      "printable": {
+        "vertices": 218184,
+        "triangles": 436300,
+        "edges": 654450,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 19,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 18,
+        "shell_volumes_mm3": [
+          312212.7573478074,
+          -27229.27226496158,
+          -32834.591497850044,
+          -32819.572280928114,
+          -32819.57072354741,
+          -32834.59001364238,
+          -4.15376839527145,
+          -4.134180310839027,
+          -4.172757160456225,
+          -4.171311054949833,
+          -18.41164284330162,
+          -18.411607396553645,
+          -11.669437635301081,
+          -11.669433653444573,
+          -4.198375704279614,
+          -4.153966563550716,
+          -4.157306197658406,
+          -4.122763421033531,
+          -27229.270868155254
+        ],
+        "signed_volume_mm3": 126352.46314845316,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 40.0,
+        "source_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.400018310477026,
+        "isosurface_level_relative_adjustment": 1.52587890625e-05,
+        "grid_shape": [
+          108,
+          108,
+          108
+        ],
+        "extent_mm": [
+          82.40001678466797,
+          82.40001678466797,
+          82.40001678466797
+        ],
+        "source_vertices": 24,
+        "source_triangles": 56,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 2.424,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g6_v24_cubohemioctahedron_hexagonal_drilling",
+        "source_stl_sha256": "0a78c26439660a51be7d2904bf82f167e1df3bf17992916680913291b7af0705",
+        "sha256": "03637264b69146680b32441e6a149a31cd5d7c5f400a014d0101d3390c3c58e7"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g8_v24_small_rhombihexahedron",
+      "paper_vertices": 24,
+      "polygon_edges": 48,
+      "polygon_faces": 18,
+      "euler_characteristic": -6,
+      "genus": 8,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.5707963267948966,
+      "max_defect_error": 0.0,
+      "max_planarity_error": 0.0,
+      "triangulation_defect_error": 8.881784197001252e-16,
+      "triangulation": {
+        "vertices": 24,
+        "triangles": 60,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 90
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 38.627416997969526
+      },
+      "stl": {
+        "vertices": 24,
+        "triangles": 60,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 90
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 38.62742066780811,
+        "max_float32_defect_error": 1.7763568394002505e-15,
+        "sha256": "3c5cb57f7e3ed2390e9ce3a6c50a43340e767207e793171c0adc98dde94f3136",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 138072,
+        "triangles": 276088,
+        "edges": 414132,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 14,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 13,
+        "shell_volumes_mm3": [
+          197214.1024695711,
+          -5831.041410315262,
+          -5830.606522019023,
+          -5831.041086466118,
+          -5830.606198067583,
+          -5830.606522018803,
+          -5831.041086465769,
+          -29243.723613599224,
+          -5831.041086465772,
+          -5830.60587411798,
+          -5830.606198067203,
+          -5831.041086465831,
+          -5830.605874117938,
+          -5831.040762619046
+        ],
+        "signed_volume_mm3": 98000.49514877757,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 16.568542494923804,
+        "source_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          108,
+          108
+        ],
+        "extent_mm": [
+          82.36449432373047,
+          82.36449432373047,
+          82.36449432373047
+        ],
+        "source_vertices": 24,
+        "source_triangles": 60,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.764,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g8_v24_small_rhombihexahedron",
+        "source_stl_sha256": "3c5cb57f7e3ed2390e9ce3a6c50a43340e767207e793171c0adc98dde94f3136",
+        "sha256": "541058a2f49d529b5bb1fdec2decb1462eb7c617e9b92d5aff5fe766c327c362"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g10_v32_small_rhombihexahedron_square_drilling",
+      "paper_vertices": 32,
+      "polygon_edges": 68,
+      "polygon_faces": 28,
+      "euler_characteristic": -8,
+      "genus": 10,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -1.5707963267948966,
+      "max_defect_error": 0.0,
+      "max_planarity_error": 0.0,
+      "triangulation_defect_error": 8.881784197001252e-16,
+      "triangulation": {
+        "vertices": 32,
+        "triangles": 80,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 120
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 31.98092611318556
+      },
+      "stl": {
+        "vertices": 32,
+        "triangles": 80,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 120
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 31.98092923135467,
+        "max_float32_defect_error": 7.105427357601002e-15,
+        "sha256": "26e4f0f2d507eed690bfbe2becca781ea97e0ffa36fddf0b64eabe2e58099fa7",
+        "added_flat_vertices": 0
+      },
+      "printable": {
+        "vertices": 141280,
+        "triangles": 282512,
+        "edges": 423768,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 15,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 14,
+        "shell_volumes_mm3": [
+          197178.05663065496,
+          -5323.1030594953745,
+          -5830.606522019023,
+          -5831.041086466118,
+          -5830.606198067583,
+          -5830.606522018803,
+          -5831.041086465769,
+          -27565.51586450109,
+          -127.31156452539086,
+          -5831.041086465772,
+          -5830.60587411798,
+          -5830.606198067203,
+          -5831.041086465831,
+          -5830.605874117938,
+          -5323.102531488341
+        ],
+        "signed_volume_mm3": 100531.22207638458,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 16.568542494923804,
+        "source_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          108,
+          108
+        ],
+        "extent_mm": [
+          82.36449432373047,
+          82.36449432373047,
+          82.36449432373047
+        ],
+        "source_vertices": 32,
+        "source_triangles": 80,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 0,
+        "subvoxel_cavities_filled_mm3": -0.0,
+        "elapsed_seconds": 0.851,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g10_v32_small_rhombihexahedron_square_drilling",
+        "source_stl_sha256": "26e4f0f2d507eed690bfbe2becca781ea97e0ffa36fddf0b64eabe2e58099fa7",
+        "sha256": "0e17b53f654fc2a9f2a98cbc288484f66e28fcbe341a3812e93ec9edfa218bff"
+      }
+    },
+    {
+      "name": "singular_nonorientable_g14_v30_small_dodecahemidodecahedron",
+      "paper_vertices": 30,
+      "polygon_edges": 60,
+      "polygon_faces": 18,
+      "euler_characteristic": -12,
+      "genus": 14,
+      "orientable": false,
+      "connected_components": 1,
+      "closed_abstract_surface": true,
+      "vertex_links_are_cycles": true,
+      "expected_defect_radians": -2.5132741228718345,
+      "max_defect_error": 0.0,
+      "max_planarity_error": 5.551115123125783e-17,
+      "triangulation_defect_error": 0.0,
+      "triangulation": {
+        "vertices": 30,
+        "triangles": 84,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 2,
+        "edge_incidence": {
+          "2": 122,
+          "4": 2
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 9.47213595499958
+      },
+      "stl": {
+        "vertices": 180,
+        "triangles": 384,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "edge_incidence": {
+          "2": 576
+        },
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume": 9.47213549123601,
+        "max_float32_defect_error": 3.45414973068614e-07,
+        "sha256": "6fa5599a5f34d1bc6f744d444878d6b9241a87b91bc38250f4c11b2f85f476a8",
+        "added_flat_vertices": 150
+      },
+      "printable": {
+        "vertices": 142584,
+        "triangles": 285116,
+        "edges": 427674,
+        "closed": true,
+        "manifold_vertex_links": true,
+        "consistent_winding": true,
+        "boundary_components": 13,
+        "positive_boundary_components": 1,
+        "cavity_boundary_components": 12,
+        "shell_volumes_mm3": [
+          188182.20833480786,
+          -8327.34894589303,
+          -8327.126918519485,
+          -8327.126558581118,
+          -8327.226466940681,
+          -8327.226225122115,
+          -8327.126796954646,
+          -8327.004199727944,
+          -8327.349542520546,
+          -8327.349306394543,
+          -8327.004434684137,
+          -8327.004078495294,
+          -8327.226823839646
+        ],
+        "signed_volume_mm3": 88256.0880371304,
+        "method": "unsigned triangle distance union; Lewiner marching cubes",
+        "source_size_mm": 80.0,
+        "source_scale": 24.721359549995793,
+        "source_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "thickness_mm": 2.4,
+        "pitch_mm": 0.8,
+        "effective_thickness_mm": 2.4,
+        "isosurface_level_relative_adjustment": 0.0,
+        "grid_shape": [
+          108,
+          108,
+          108
+        ],
+        "extent_mm": [
+          82.06494903564453,
+          82.06494903564453,
+          82.06494903564453
+        ],
+        "source_vertices": 30,
+        "source_triangles": 84,
+        "preserves_source_vertex_counts_and_defects": false,
+        "subvoxel_cavities_filled": 8,
+        "subvoxel_cavities_filled_mm3": 0.6746252074851459,
+        "elapsed_seconds": 1.865,
+        "float32_welded_vertices": 0,
+        "float32_collapsed_triangles_removed": 0,
+        "float32_coincident_triangles_removed": 0,
+        "source_model": "singular_nonorientable_g14_v30_small_dodecahemidodecahedron",
+        "source_stl_sha256": "6fa5599a5f34d1bc6f744d444878d6b9241a87b91bc38250f4c11b2f85f476a8",
+        "sha256": "6d124e416160628ed54b27f060521bfa3bb6d3eedc912b5935cf699cce802533"
+      }
+    }
+  ],
+  "checks": "Polygon incidences, single-cycle vertex links, orientability, Euler characteristic, planarity, simple polygons, intrinsic defects, triangulation areas, exported STL closure and float32 rounding.",
+  "embeddedness": "The analytic constructions follow the paper's embedding proofs; see scripts/check_embedded_intersections.py for the supplementary numerical intersection check when present.",
+  "stl_units": "Paper coordinate units. The separate 3dprint STL files use millimetres."
+}

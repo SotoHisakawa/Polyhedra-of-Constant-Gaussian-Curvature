@@ -1,0 +1,15 @@
+{
+  "title": "Polyhedra of Constant Gaussian Curvature",
+  "snapshot_date": "2026-11-18",
+  "source": "Local manuscript and supplement; generators do not depend on these files at runtime",
+  "sha256": {
+    "main.tex": "d2fcc9bd9e0cec1701c0ebf03f0a735aebd7c21dd865f479d4d7be70ff662e3f",
+    "supplement.tex": "ed3da2ffd21e0763633d76fe406a28384b9fb9bd1b6946ce230cb71bae26cb64",
+    "sections/central-handle.tex": "72d660ea5578486518cd834e7a17f7e6b32a9f21a8e3f201b424fc0f3ca8e42d",
+    "sections/immersion.tex": "31750d03e7642c31bc87acfb132da73285450f856064acc82df88e468d6df289",
+    "sections/singular-realisations.tex": "9d1d6afa2a885ef09bd01264d2fc3ffdf863292a94c1b9eeaef919b76766d4ae",
+    "sections/embedded-details.tex": "dfb01595d426eb68c8e8f1147a6ab656f350c3a189593d85a05b442c55798372",
+    "sections/torus-embedding.tex": "49bfd1ec841a7fb02bfbb61d691c2337efbe4c90ceaaa6a9d645798e1f2b96bf",
+    "sections/supplemental/singular-details.tex": "b1316c5f13ffe741cc181e0853cc4122eb0e0de9da6c8418d19039110708ed90"
+  }
+}

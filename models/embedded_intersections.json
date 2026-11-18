@@ -1,0 +1,171 @@
+{
+  "method": "Pairwise triangle intersections after AABB filtering",
+  "precision": "floating-point, relative tolerance 2e-10",
+  "shared_contact_tolerance_multiplier": 10,
+  "self_tests": 8,
+  "passed": true,
+  "models": [
+    {
+      "name": "embedded_orientable_g0_v4_tetrahedron",
+      "triangles": 4,
+      "candidate_pairs": 6,
+      "absolute_tolerance": 4e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g1_v9_flat_torus",
+      "triangles": 18,
+      "candidate_pairs": 143,
+      "absolute_tolerance": 3.9318516525781367e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g2_v16_windows",
+      "triangles": 36,
+      "candidate_pairs": 362,
+      "absolute_tolerance": 4.0000000000000017e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g3_v24_windows",
+      "triangles": 56,
+      "candidate_pairs": 617,
+      "absolute_tolerance": 8e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g4_v32_windows",
+      "triangles": 76,
+      "candidate_pairs": 860,
+      "absolute_tolerance": 9.65685424949238e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g5_v40_windows",
+      "triangles": 96,
+      "candidate_pairs": 1243,
+      "absolute_tolerance": 1.2944271909999163e-09,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g6_v48_windows",
+      "triangles": 116,
+      "candidate_pairs": 1595,
+      "absolute_tolerance": 1.4928203230275511e-09,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g7_v56_windows",
+      "triangles": 136,
+      "candidate_pairs": 1845,
+      "absolute_tolerance": 1.7975836829739738e-09,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g8_v64_windows",
+      "triangles": 156,
+      "candidate_pairs": 2172,
+      "absolute_tolerance": 2.0109357968503394e-09,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g5_v30_shared_windows",
+      "triangles": 76,
+      "candidate_pairs": 1003,
+      "absolute_tolerance": 6.47213595499958e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g6_v36_shared_windows",
+      "triangles": 92,
+      "candidate_pairs": 1305,
+      "absolute_tolerance": 8e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g7_v42_shared_windows",
+      "triangles": 108,
+      "candidate_pairs": 1447,
+      "absolute_tolerance": 8.987918414869871e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g8_v48_shared_windows",
+      "triangles": 124,
+      "candidate_pairs": 1724,
+      "absolute_tolerance": 9.65685424949238e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g4_v21_central_handle",
+      "triangles": 54,
+      "candidate_pairs": 920,
+      "absolute_tolerance": 4e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g5_v28_central_handle",
+      "triangles": 72,
+      "candidate_pairs": 988,
+      "absolute_tolerance": 4.000000000000001e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g6_v35_central_handle",
+      "triangles": 90,
+      "candidate_pairs": 1174,
+      "absolute_tolerance": 6.47213595499958e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g3_v32_drilled_windows",
+      "triangles": 72,
+      "candidate_pairs": 744,
+      "absolute_tolerance": 4.0000000000000017e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    },
+    {
+      "name": "embedded_orientable_g2_v24_historical_cube",
+      "triangles": 52,
+      "candidate_pairs": 534,
+      "absolute_tolerance": 4e-10,
+      "intersection_count": 0,
+      "intersections": [],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "method": "Uniformly scaled embedded solid boundary; no thickening",
+  "size_mm": 80.0,
+  "scale": 40.69329520483997,
+  "vertices": 9,
+  "triangles": 18,
+  "edges": 27,
+  "closed": true,
+  "manifold_vertex_links": true,
+  "consistent_winding": true,
+  "boundary_components": 1,
+  "positive_boundary_components": 1,
+  "cavity_boundary_components": 0,
+  "shell_volumes_mm3": [
+    61402.50552606944
+  ],
+  "signed_volume_mm3": 61402.50552606945,
+  "source_model": "embedded_orientable_g1_v9_flat_torus",
+  "source_stl_sha256": "bd7f487996c6a00226d6fdbe411af532af4d5b87e7b66f431185fbf7c097b7ad",
+  "sha256": "1d6ba5d8bca2c451aaf2d420010f6caea8ca8151bcea2c217847ff072bfffed2"
+}

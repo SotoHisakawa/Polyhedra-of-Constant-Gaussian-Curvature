@@ -1,0 +1,21 @@
+{
+  "method": "Uniformly scaled embedded solid boundary; no thickening",
+  "size_mm": 80.0,
+  "scale": 20.0,
+  "vertices": 36,
+  "triangles": 92,
+  "edges": 138,
+  "closed": true,
+  "manifold_vertex_links": true,
+  "consistent_winding": true,
+  "boundary_components": 1,
+  "positive_boundary_components": 1,
+  "cavity_boundary_components": 0,
+  "shell_volumes_mm3": [
+    90094.67877394106
+  ],
+  "signed_volume_mm3": 90094.67877394102,
+  "source_model": "embedded_orientable_g6_v36_shared_windows",
+  "source_stl_sha256": "7faf381d5b94570330f0a11dad79182289686798eb3e0647b07491964a6481c9",
+  "sha256": "bce7b7fa2e4b660b1dc1e37520df58bc60d88b17e65183bb791b3c74109d6aa4"
+}

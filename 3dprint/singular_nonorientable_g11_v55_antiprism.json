@@ -1,0 +1,50 @@
+{
+  "vertices": 49794,
+  "triangles": 99580,
+  "edges": 149370,
+  "closed": true,
+  "manifold_vertex_links": true,
+  "consistent_winding": true,
+  "boundary_components": 2,
+  "positive_boundary_components": 1,
+  "cavity_boundary_components": 1,
+  "shell_volumes_mm3": [
+    49468.34647256991,
+    -17637.907526237912
+  ],
+  "signed_volume_mm3": 31830.438946335,
+  "method": "unsigned triangle distance union; Lewiner marching cubes",
+  "source_size_mm": 80.0,
+  "source_scale": 13.14648162988148,
+  "source_center": [
+    -0.04814057985273679,
+    -2.220446049250313e-16,
+    0.5687945913257172
+  ],
+  "thickness_mm": 2.4,
+  "pitch_mm": 0.8,
+  "effective_thickness_mm": 2.400018310477026,
+  "isosurface_level_relative_adjustment": 1.52587890625e-05,
+  "grid_shape": [
+    108,
+    108,
+    27
+  ],
+  "extent_mm": [
+    81.7518081665039,
+    82.30561065673828,
+    17.288887977600098
+  ],
+  "source_vertices": 55,
+  "source_triangles": 128,
+  "preserves_source_vertex_counts_and_defects": false,
+  "subvoxel_cavities_filled": 0,
+  "subvoxel_cavities_filled_mm3": -0.0,
+  "elapsed_seconds": 0.448,
+  "float32_welded_vertices": 0,
+  "float32_collapsed_triangles_removed": 0,
+  "float32_coincident_triangles_removed": 0,
+  "source_model": "singular_nonorientable_g11_v55_antiprism",
+  "source_stl_sha256": "e488077d3cdb97c0edc7593120367dc07df3e6114094af394ab9297c745669b3",
+  "sha256": "b2dd24c73bedee21a63add3dd2e747c8295057abdb25ea44f30bfc1a724b5956"
+}

@@ -1,0 +1,20 @@
+{
+  "python": "3.13.12",
+  "packages": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.0",
+    "scikit-image": "0.26.0",
+    "matplotlib": "3.10.8"
+  },
+  "generator_sha256": {
+    "check_embedded_intersections.py": "779e4b07bb40812f2fec2ad21e2334cec033becb2f1869df83c60d59aa6d2325",
+    "embedded_models.py": "77ab0fb2c5e9d93122d2d273fec70afaa13279bf0463e5c034ab737bcc612c72",
+    "flat-torus.py": "67214aef256b4afa2b45f0161de1cc9e0dc7aa310867598aa9981e28728baec7",
+    "generate_models.py": "291140b2b7134adbaba891266d909e02ccca40631d0d0fc9be0c9aa198738032",
+    "immersed_models.py": "455eed720c962d4e25b3c2ce768e5b2275cafa0d6df7f48d2204b1d5c0f70c57",
+    "mesh_geometry.py": "a3973287c5a1252ee5259f3560607c701c3e0af24d6415d2f90bcc1359e7fc57",
+    "printable_models.py": "45690f1e6d84f61e1c593161b85503641cd6868e04cfa0c4f930c169e691651f",
+    "singular_models.py": "ecc3a74cb28feaae9f20610faedf26afa520310bfaff60387fcf8f9e10b18900",
+    "test_models.py": "5e8c301b95a01d2e55ea81df67dd2b9c2dedbba8d7955ac9a4f1c713fe49da52"
+  }
+}
