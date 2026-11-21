@@ -10,6 +10,8 @@ can be realised in $\R^3$ as a (possibly self-intersecting) polyhedral surface i
 
 ![Representative models](images/model_overview.png)
 
+The [model explorer on GitHub Pages](https://sotohisakawa.github.io/Polyhedra-of-Constant-Gaussian-Curvature/) displays the surfaces and their constructions. Select a surface to measure its edges and face angles, or enter orientability, genus and vertex count to look up a construction. For example, the [17-vertex orientable genus-two target](https://sotohisakawa.github.io/Polyhedra-of-Constant-Gaussian-Curvature/#target?o=1&g=2&v=17) leads from a square prism through the two-window construction to the extra waist vertex. For offline use, download or clone the repository and open [the local viewer](docs/index.html).
+
 
 ## Files and names
 
@@ -17,7 +19,7 @@ can be realised in $\R^3$ as a (possibly self-intersecting) polyhedral surface i
 |---|---|
 | [`stl/`](stl/) | Triangulated mathematical surfaces, in the paper's coordinate units |
 | [`3dprint/`](3dprint/) | Closed solid STL files in millimetres, with individual generation/validation reports |
-| [`models/`](models/README.md) | Full catalog, original coordinates/incidences/parameters in JSON, and validation results |
+| [`models/`](models/) | Original coordinates, incidences and parameters in JSON, and validation results |
 | [`scripts/`](scripts/) | Python construction, triangulation, printing, preview, and verification scripts |
 | [`geogebra/`](geogebra/) | Existing GeoGebra files, retained without regeneration |
 
@@ -48,7 +50,24 @@ These terms follow the revised paper: **embedded** surfaces have no self-interse
 | Small dodecahemidodecahedron | 14 | 30 |
 | Historical cube; historical cuboctahedron with four bands | orientable 2; non-orientable 4 | 24; 24 |
 
-See the [full catalog](models/README.md) for individual STL links and source references. Family functions accept further genera where the paper's construction permits them; the catalog is a finite selection.
+See the [source models](models/) for coordinates and source references and the [STL files](stl/) for individual surfaces. The repository contains a finite selection of the genera covered by the constructions.
+
+## Verification of the vertex bounds
+
+From the repository root, run
+
+```sh
+python -m pip install numpy mpmath
+python scripts/check_vertex_bound_seams.py
+python scripts/verify_octahedral_immersions.py
+```
+
+- [Window, band and tunnel checks](scripts/check_vertex_bound_seams.py) reconstruct the triangular bases for genera 3 and 4 and the tunnel openings for genera 6 and 8. For genus 4, outward-rounded intervals bound the two defect functions on the four sides of a parameter rectangle for every perturbation from 0 to 0.00001. The signs give a simultaneous zero by the Poincaré–Miranda theorem. The script also checks that the two bands lie on opposite sides of their symmetry plane away from the common edge.
+- [Octahedral immersions](scripts/verify_octahedral_immersions.py) generate the 24 vertices and all faces from the orbit representatives in the paper. The script checks connectedness, non-orientability, incidences and simplicity of the vertex links using integer arithmetic. It gives 132 edges and 86 faces in genus 24, and 120 edges and 80 faces in genus 18.
+
+For the Möbius band used in these constructions, [the symbolic link check](scripts/verify_mobius_links.py) verifies local injectivity over the full parameter range in Appendix A. After a rational change of variables with positive parameters, the signs follow from the coefficients of polynomials. To reproduce the check, install SymPy and run `python scripts/verify_mobius_links.py`.
+
+The [central-handle face data](models/central-handle-face-data.md) give the edge lengths and interior angles in cyclic order for each nonrectangular face in the central-handle models.
 
 ## Mathematical surfaces and printing
 
@@ -82,7 +101,7 @@ Checks cover genus, orientability, polygon planarity and simplicity, closed vert
 
 ## Related resources
 
-Interactive models: [Soto Hisakawa on GeoGebra](https://www.geogebra.org/u/hisakawa).
+GeoGebra models: [Soto Hisakawa on GeoGebra](https://www.geogebra.org/u/hisakawa).
 
 ## Citation
 

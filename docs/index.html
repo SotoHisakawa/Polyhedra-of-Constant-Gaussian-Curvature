@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#faf9f5">
+  <title>Model explorer · Polyhedra of Constant Gaussian Curvature</title>
+  <link rel="stylesheet" href="viewer/styles.css">
+  <script defer src="viewer/models.js"></script>
+  <script defer src="viewer/renderer.js"></script>
+  <script defer src="viewer/constructions.js"></script>
+  <script defer src="viewer/recipes.js"></script>
+  <script defer src="viewer/target.js"></script>
+  <script defer src="viewer/app.js"></script>
+</head>
+<body>
+<header>
+  <div class="mast frame"><a href="#general" class="brand">Polyhedra of Constant Gaussian Curvature</a>
+  <nav aria-label="Resources"><a href="technical-notes.pdf">Technical note <span aria-hidden="true">↗</span></a></nav></div>
+</header>
+<main class="frame">
+  <div class="heading"><div class="mode-switch" role="group" aria-label="Viewer mode">
+    <button type="button" id="general" aria-pressed="true">Explore models</button>
+    <button type="button" id="construction" aria-pressed="false">Follow construction</button>
+    <button type="button" id="find-target" aria-pressed="false">Find a CCP</button>
+  </div></div>
+  <section id="planner" hidden aria-labelledby="target-heading">
+   <div class="target-heading"><h1 id="target-heading">Find a CCP</h1>
+    <p>Choosing a surface selects the smallest vertex count with a construction in this viewer. You can also enter a vertex count. Orientable targets use embeddings and non-orientable targets use immersions.</p>
+   </div>
+   <div class="target-layout">
+    <section class="target-inputs" aria-labelledby="parameters-heading">
+     <h2 id="parameters-heading">Target surface</h2>
+     <label for="target-orientation">Orientability</label>
+     <select id="target-orientation"><option value="orientable">Orientable</option><option value="nonorientable">Non-orientable</option></select>
+     <div class="target-numbers">
+      <div><label for="target-genus">Genus <i>g</i></label><input id="target-genus" type="number" inputmode="numeric" min="0" step="1" value="2" required></div>
+      <div><label for="target-vertices">Vertices |<i>V</i>|</label><input id="target-vertices" type="number" inputmode="numeric" min="1" step="1" required></div>
+     </div>
+     <p class="target-description" id="genus-meaning"></p>
+     <div id="target-suggestions" aria-label="Other vertex counts with constructions"></div>
+    </section>
+    <section class="target-output" id="target-result" aria-live="polite" aria-atomic="true">
+     <p class="eyebrow" id="target-status"></p><h2 id="recipe-title"></h2>
+     <dl class="target-invariants" id="target-invariants">
+      <div><dt>Euler characteristic χ</dt><dd id="target-chi"></dd></div>
+      <div><dt>Required vertex defect δ</dt><dd id="target-defect"></dd></div>
+     </dl>
+     <p id="target-message" hidden></p>
+     <ol id="target-steps"></ol>
+     <p id="target-reference" class="sub"></p>
+     <div id="target-actions"></div>
+    </section>
+   </div>
+  </section>
+  <section class="workbench" id="workbench" aria-labelledby="title">
+   <div class="toolbar">
+    <div><p class="eyebrow" id="category">Model collection</p><h1 id="title">Model explorer</h1></div>
+    <div class="chooser"><label for="model" id="choose-label">Model</label>
+      <select id="model"></select><select id="route" aria-label="Construction" hidden></select>
+    </div>
+   </div>
+   <div class="layout">
+    <div class="stage">
+     <div class="viewport"><canvas id="mesh" tabindex="0" aria-label="Interactive polyhedral surface. Use arrow keys to rotate and plus or minus to zoom. Use the measurement selectors to select an edge or corner."></canvas>
+      <div id="render-error" role="alert" hidden></div>
+      <div class="tools" role="group" aria-label="Camera"><button id="zoom-out" aria-label="Zoom out">−</button><button id="zoom-in" aria-label="Zoom in">+</button><button id="reset" aria-label="Reset view" title="Reset view">↺</button></div>
+      <label id="legend" hidden title="Show the rest of the surface as a wire outline"><input id="reveal" type="checkbox"> Isolate highlighted geometry</label>
+     </div>
+     <div class="stage-foot"><span>Drag to rotate · Scroll or pinch to zoom</span><span class="view-options"><label><input type="checkbox" id="wire" checked> Edges</label><label><input type="checkbox" id="annotate" checked> Measurement label</label></span></div>
+    </div>
+    <aside>
+     <section id="construction-card" hidden>
+      <div class="section-heading"><h2>Construction</h2><span class="step-count" id="step-count"></span></div>
+      <div id="steps" role="group" aria-label="Construction steps"></div>
+      <h3 id="step-title"></h3><p id="step-text"></p>
+      <div class="step-nav"><button id="step-prev">← Previous</button><button id="step-next">Next →</button></div>
+      <p id="reference"></p><div id="connections"></div>
+     </section>
+     <section class="topology" aria-labelledby="topology-heading">
+      <h2 id="topology-heading">Surface data</h2><p class="sub" id="surface-type"></p>
+      <dl class="metrics"><div><dt><i>g</i><span>Genus</span></dt><dd id="genus"></dd></div><div><dt><i>χ</i><span>Euler characteristic</span></dt><dd id="chi"></dd></div></dl>
+      <dl class="counts"><div><dt>Vertices</dt><dd id="vertices"></dd></div><div><dt>Edges</dt><dd id="edges"></dd></div><div><dt>Faces</dt><dd id="faces"></dd></div></dl>
+      <div class="defect-line"><span id="defect-label"></span><strong id="defect"></strong></div>
+     </section>
+     <section class="measure" aria-labelledby="measurement-heading">
+      <h2 id="measurement-heading">Measurements</h2>
+      <label class="sr-only" for="measure-kind">Quantity to measure</label>
+      <select id="measure-kind"><option value="edge">Edge length</option><option value="angle">Interior face angle</option></select>
+      <div id="edge-box"><label for="edge">Edge</label><select id="edge"></select></div>
+      <div id="angle-box" hidden><div class="pair"><div><label for="face">Face</label><select id="face"></select></div><div><label for="corner">Corner</label><select id="corner"></select></div></div></div>
+      <div class="reading"><output id="value"></output><span id="length-units">model units</span><select id="angle-unit" aria-label="Angle unit" hidden><option value="degrees">degrees</option><option value="radians">radians</option></select></div>
+      <p class="hint" id="measure-help">Select an edge on the surface or from the list.</p>
+     </section>
+    </aside>
+   </div>
+  </section>
+  <footer>Coordinates and polygonal incidences from the <a href="https://github.com/SotoHisakawa/Polyhedra-of-Constant-Gaussian-Curvature">companion repository</a>. Vertex and face labels in this viewer start at 1.</footer>
+</main>
+<noscript>This interactive viewer requires JavaScript.</noscript>
+</body></html>

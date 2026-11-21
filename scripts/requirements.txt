@@ -1,5 +1,9 @@
 numpy>=1.26
 scipy>=1.11
+# Interval arithmetic for the vertex-bound verification.
+mpmath>=1.3
+# Symbolic vertex-link check for the parameter family in Appendix A.
+sympy>=1.10
 # Required for --printable (distance-field isosurface) and --preview, respectively.
 scikit-image>=0.22
 matplotlib>=3.8
